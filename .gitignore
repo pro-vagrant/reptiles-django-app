@@ -1,0 +1,6 @@
+/.vagrant/
+/.idea/
+/nbproject/
+.DS_Store
+*.pyc
+
