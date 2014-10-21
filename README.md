@@ -14,9 +14,16 @@ Boot VM:
     $ vagrant ssh
     $ cd /vagrant
 
-...
+Start the server:
+
+    $ cd reptiles
+    $ python manage.py runserver 0.0.0.0:8000 &
 
 Finally start your web browser and visit:
 
     http://127.0.0.1:8880
+
+
+
+
 

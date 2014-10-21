@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}{% endblock %}</title>
+</head>
+<body>
+
+<h1>Reptiles</h1>
+
+<ul>
+    <li><a href="{% url 'turtle-url' %}">Turtle</a></li>
+    <li><a href="{% url 'viper-url' %}">Viper</a></li>
+    <li><a href="{% url 'grass-snake-url' %}">Grass-snake</a></li>
+</ul>
+
+{% block content %}{% endblock %}
+
+</body>
+</html>
