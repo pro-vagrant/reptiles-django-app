@@ -1,3 +1,11 @@
+
+*.pyc
+reptiles/reptiles/urls.pyc
+
+
+*.py[cod]
+*.pyc
+
 /.vagrant/
 /.idea/
 /nbproject/
