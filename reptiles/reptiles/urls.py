@@ -9,7 +9,7 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
 
-    url(r'^viper\.html$', viper, name='viper-url'),
+    url(r'^$', viper, name='viper-url'),
 
     url(r'^turtle\.html$', turtle, name='turtle-url'),
 
