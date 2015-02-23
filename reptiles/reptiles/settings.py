@@ -82,5 +82,5 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 TEMPLATE_DIRS = (
-    '/vagrant/reptiles/reptiles/templates',
+    os.path.join(BASE_DIR, 'reptiles/templates')
 )
